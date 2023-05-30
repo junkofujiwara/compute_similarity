@@ -17,7 +17,7 @@ def read_file(filename):
 def main():
     """main function"""
     if len(sys.argv) != 3:
-        print('Usage: python compute_similarity.py <document1> <document2>')
+        print('Usage: python main.py <document1> <document2>')
         sys.exit(1)
 
     document1 = read_file(sys.argv[1])
